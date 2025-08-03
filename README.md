@@ -1,6 +1,10 @@
 # About
 
+<<<<<<< HEAD
 Simulator for the Warp feature in Honkai: Star Rail, including inventory and pull tracking. This is a "for-fun" project mimicking the exciting gacha system while practicing object-oriented programming and designing principles not common on LeetCode.
+=======
+Simulator for the Warp feature in Honkai: Star Rail, including inventory and pull tracking. This is a "for-fun" project mimicking the exciting gacha system while practicing object-oriented programming and designing principles not common in LeetCode.
+>>>>>>> 67c6e43da4a346ede2d80f03966a825c93951621
 
 ## Features
 
@@ -28,4 +32,8 @@ Simulator for the Warp feature in Honkai: Star Rail, including inventory and pul
 ## Credits
 
 - Data and character descriptions sourced from the [Honkai: Star Rail Fandom](https://hsr.fandom.com/).
+<<<<<<< HEAD
 - Inspired by official Honkai: Star Rail mechanics.
+=======
+- Inspired by official Honkai: Star Rail mechanics.
+>>>>>>> 67c6e43da4a346ede2d80f03966a825c93951621

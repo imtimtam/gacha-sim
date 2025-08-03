@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package gacha.items;
 
 import gacha.Element;
@@ -32,4 +33,40 @@ public class Character extends GachaItem implements HasElement, HasPath{
     public String toString(){
         return getName() + " (" + getRarity() + "*)" + " (" + getPath() + ")";
     }
+=======
+package gacha.items;
+
+import gacha.Element;
+import gacha.Path;
+
+public class Character extends GachaItem implements HasElement, HasPath{
+    protected final Path path;
+    protected final Element element;
+    
+    public Character(String name, int rarity, String description, Path path, Element element){
+        super(name, rarity, description);
+        this.path = path;
+        this.element = element;
+    }
+
+    @Override
+    public String getType(){
+        return "Character";
+    }
+
+    @Override
+    public Path getPath(){
+        return this.path;
+    }
+
+    @Override
+    public Element getElement(){
+        return this.element;
+    }
+
+    @Override
+    public String toString(){
+        return getName() + " (" + getRarity() + "*)" + " (" + getPath() + ")";
+    }
+>>>>>>> 67c6e43da4a346ede2d80f03966a825c93951621
 }
